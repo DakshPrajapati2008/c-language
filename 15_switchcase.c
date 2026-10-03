@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+int day;//1-mon;2-tues;3-wenes;4-theres;5-fri;6-sauter;7-sun;
+printf("enter day(1-7):");
+scanf("%d",&day);
+switch(day)
+{
+    case 1:
+    printf("monday\n");
+    break;
+    case 2:
+    printf("tuesday\n");
+    break;
+    case 3:
+    printf("wenesday\n");
+    break;
+    case 4:
+    printf("theresday\n");
+    break;
+    case 5:
+    printf("friday\n");
+    break;
+    case 6:
+    printf("sauterday\n");
+    break;
+    case 7:
+    printf("sunday\n");
+    break;
+    default:
+    printf("not a void day ! \n");
+    return 0;
+}
+}
